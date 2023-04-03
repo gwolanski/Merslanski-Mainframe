@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#section-one {
+    width: 100%;
+    height: 100%;
+    position:relative;
+    text-align: center;
+    color: white;
+}
+
+#banner-image {
+    width: 100%;
+    height: 100%;
+}
+
+#website-name {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255, 0.4);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.project-section-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-category {
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    font-weight: bold;
+    min-height: 200px;
+    gap: 10px;
+    padding-left: 20px;
+    padding-top: 15px;
+    box-shadow: 5px 5px 20px inset rgb(75, 96, 82);
+}
+
+.color-one {
+    background-color: rgb(188, 206, 194);
+}
+
+.color-two {
+    background-color: rgb(227, 239, 223);
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    align-content: center;
+    align-items: center;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 5px 5px 20px inset gray;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.project-container:hover {
+    border: 3px solid black;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.project {
+    font-size: 20px;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+}
+
+a:hover {
+    color: rgb(0, 86, 0);
+}
+
+span {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 35px;
+    left: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
